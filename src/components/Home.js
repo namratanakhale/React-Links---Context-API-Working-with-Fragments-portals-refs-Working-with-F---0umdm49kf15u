@@ -5,12 +5,14 @@ const Home = () => {
     <div id="home-div">
       <ul>
         <li>
-        <Link to="/">Home</Link>
-          {/* <h2 id="home-item">Home</h2> */}
+        {/* <Link to="/">Home</Link> */}
+        <Link to="/">
+          <h2 id="home-item">Home</h2></Link>
         </li>
         <li>
-        <Link to="/topics">Topics</Link>
-          {/* <h2 id="topics-item">Topics</h2> */}
+        {/* <Link to="/topics">Topics</Link> */}
+        <Link to="/topics">
+          <h2 id="topics-item">Topics</h2></Link>
         </li>
       </ul>
       <hr />

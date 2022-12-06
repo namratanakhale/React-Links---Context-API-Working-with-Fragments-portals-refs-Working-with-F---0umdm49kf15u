@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link, BrowserRouter } from "react-router-dom";
 import "../styles/App.css";
 import ComponentsTopic from "./ComponentsTopic";
 import Home from "./Home";
@@ -8,24 +8,26 @@ import Topics from "./Topics";
 
 const App = () => {
   return (
+   
     <Router>
       <div id="main">
         <Switch>
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/topics">
+          <Route path="/topics">
             <Topics />
           </Route>
-          <Route exact path="/topics/components">
+          <Route path="/topics/components">
             <ComponentsTopic />
           </Route>
-          <Route exact path="/topics/rendering">
+          <Route path="/topics/rendering">
             <RenderingTopic />
           </Route>
         </Switch>
       </div>
     </Router>
+   
   );
 };
 
