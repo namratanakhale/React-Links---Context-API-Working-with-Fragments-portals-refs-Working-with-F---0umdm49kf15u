@@ -5,7 +5,7 @@ const RenderingTopic = () => {
   return (
     <div id="rendering-div">
       <h3>Rendering in React</h3>
-      <button id="rendering-back-button"><Link to = "/topics">Back</Link>
+      <button id="rendering-back-button"><Link to ="/topics">Back</Link>
 
       </button>
     </div>

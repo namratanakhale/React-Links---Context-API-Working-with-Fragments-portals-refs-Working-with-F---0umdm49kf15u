@@ -5,7 +5,7 @@ const ComponentsTopic = () => {
   return (
     <div id="components-div">
       <h3>Components in React</h3>
-      <button id="components-back-button"><Link to = "/topics">Back</Link>
+      <button id="components-back-button"><Link to ="/topics">Back</Link>
       
       </button>
     </div>
